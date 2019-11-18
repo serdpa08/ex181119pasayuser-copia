@@ -1,0 +1,76 @@
+nav {
+    background-color: darkslategray;
+
+}
+
+nav a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.activo{
+    background-color: lightblue;
+}
+
+.inactivo{
+    background-color: darkslategray;
+
+}
+.inactivo:hover{
+    background-color: darkgray;
+}
+
+.contenedor{
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.contenedor img{
+    margin-left: 1.5%;
+    display: inline-block;
+    width: 25%;
+    padding: 3%;
+}
+
+.contenedor img:hover{
+    opacity: 0.4;
+}
+
+.capaContenedora{
+    width: 90%;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+span{
+    background: yellow;
+    border: 1px solid black;
+    display: inline-block;
+    width: 20%;
+    height: 70px;
+}
+
+.capacontenedora1{
+    width: 49%;
+    float: left;
+    min-height: 200px;
+}
+
+.gris1, .gris2, .gris3{
+    width: 33%;
+    float: left;
+    background: grey;
+    min-height: 150px;
+}
+
+.gris2{
+    opacity: 0.7;
+}
+.gris3{
+    opacity: 0.3;
+}
+
